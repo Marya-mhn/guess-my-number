@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     padding: 16,
     marginTop: 100,
-    backgroundColor: "#4e0329",
+    backgroundColor: "#3b021f",
     marginHorizontal: 24,
     borderRadius: 8,
     // to add shadow on adroid
