@@ -9,10 +9,10 @@ function StartGameScreen() {
         maxLength={2}
         keyboardType="number-pad"
         autoCapitalize="none"
-      >
-        {/* <PrimaryButton>Reset</PrimaryButton>
-        <PrimaryButton>Confirm</PrimaryButton> */}
-      </TextInput>
+        autoCorrect={false}
+      ></TextInput>
+      <PrimaryButton>Reset</PrimaryButton>
+      <PrimaryButton>Confirm</PrimaryButton>
     </View>
   );
 }

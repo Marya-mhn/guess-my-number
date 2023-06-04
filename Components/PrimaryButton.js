@@ -1,10 +1,12 @@
-import { View, Text } from "react-native";
+import { View, Text, Pressable } from "react-native";
 
-function PrimaryButton({ children }) {
+function PrimaryButton(props) {
   return (
-    <View>
-      <Text>{children}</Text>
-    </View>
+    <Pressable>
+      <View>
+        <Text>{props.children}</Text>
+      </View>
+    </Pressable>
   );
 }
 
