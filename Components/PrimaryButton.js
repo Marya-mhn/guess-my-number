@@ -1,10 +1,13 @@
 import { View, Text, Pressable } from "react-native";
 
-function PrimaryButton(props) {
+function PrimaryButton({ children }) {
+  function pressHandler() {
+    console.log("pressed ");
+  }
   return (
-    <Pressable>
+    <Pressable onPress={pressHandler}>
       <View>
-        <Text>{props.children}</Text>
+        <Text>{children}</Text>
       </View>
     </Pressable>
   );
