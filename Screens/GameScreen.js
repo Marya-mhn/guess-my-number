@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Text, View, StyleSheet, SafeAreaView, Alert } from "react-native";
+import { Text, View, StyleSheet, Alert } from "react-native";
 import Title from "../Components/ui/Title";
 
 import ContainerNumber from "../Components/game/ContainerNumber";

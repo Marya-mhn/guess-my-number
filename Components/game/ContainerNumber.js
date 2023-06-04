@@ -1,4 +1,4 @@
-import { Text, View, StyleSheet, SafeAreaView } from "react-native";
+import { Text, View, StyleSheet } from "react-native";
 import Colors from "../../constants/colors";
 function ContainerNumber({ children }) {
   return (
