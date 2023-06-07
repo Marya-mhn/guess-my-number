@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Text, View } from "react-native";
 function GameOverScreen() {
   return <Text>Game over </Text>;
 }
