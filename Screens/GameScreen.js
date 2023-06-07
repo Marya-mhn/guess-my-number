@@ -29,6 +29,8 @@ function GameScreen({ userNumber, onGameOver }) {
     }
   }, [currentGuess, userNumber, userNumber]);
 
+  useEffect(() => {}, []);
+
   function nextGuessHandler(direction) {
     // direct => lower or Greater
     if (
