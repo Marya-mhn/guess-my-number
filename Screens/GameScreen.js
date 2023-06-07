@@ -83,6 +83,7 @@ const styles = StyleSheet.create({
   },
   instructionText: {
     color: Colors.accent500,
+    marginBottom: 12,
     fontSize: 24,
   },
   buttonsContainer: {
