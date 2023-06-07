@@ -29,11 +29,13 @@ const styles = StyleSheet.create({
     borderRadius: 150,
     borderWidth: 3,
     borderColor: Colors.primary800,
-    overFlow: "hidden",
+    overflow: "hidden",
     margin: 36,
   },
   image: {
     width: "100%",
     height: "100%",
+    resizeMode: "cover",
+    borderRadius: 150,
   },
 });
