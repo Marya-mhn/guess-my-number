@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
     borderBottomColor: Colors.accent500,
     borderBottomWidth: 2,
     color: Colors.accent500,
-    marginVertical: 8,
+    marginVertical: 6,
     fontWeight: "bold",
     textAlign: "center",
   },
